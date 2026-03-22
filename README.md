@@ -17,6 +17,9 @@ This chapter covers data aggregation using structs. More importantly, it explore
 ### [Chapter 3: Pointers and Memory Management](./3_pointer)
 This chapter dives into the core of C: Pointers. It explores direct memory access, pointer arithmetic, array decay, C-style string manipulation (null-terminated character arrays), and safe buffer management strategies to prevent buffer overflows.
 
+### [Chapter 4: Enums and Memory Sizing](./4_enum)
+This chapter focuses on Enumerations (`enum`). It explores how enums are used to define sets of named integer constants, how they integrate with `switch` statements, and crucially, how the C compiler dynamically determines the underlying integer byte size of an enum based on the magnitude of its defined values.
+
 ## How to Navigate
 
 Feel free to explore the directories above. Each folder contains its own `README.md` with more detailed explanations of the key concepts covered, along with the source code (`.c` and `.h` files) demonstrating those concepts in action.
