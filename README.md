@@ -20,6 +20,9 @@ This chapter dives into the core of C: Pointers. It explores direct memory acces
 ### [Chapter 4: Enums and Memory Sizing](./4_enum)
 This chapter focuses on Enumerations (`enum`). It explores how enums are used to define sets of named integer constants, how they integrate with `switch` statements, and crucially, how the C compiler dynamically determines the underlying integer byte size of an enum based on the magnitude of its defined values.
 
+### [Chapter 5: Unions and Memory Layout](./5_union)
+This chapter explores Unions (`union`) and how they provide a way to store different data types in the same memory location. It covers creating algebraic data types by combining enums and unions, interpreting raw memory, and understanding endianness through memory layout examples.
+
 ## How to Navigate
 
 Feel free to explore the directories above. Each folder contains its own `README.md` with more detailed explanations of the key concepts covered, along with the source code (`.c` and `.h` files) demonstrating those concepts in action.
