@@ -23,6 +23,9 @@ This chapter focuses on Enumerations (`enum`). It explores how enums are used to
 ### [Chapter 5: Unions and Memory Layout](./5_union)
 This chapter explores Unions (`union`) and how they provide a way to store different data types in the same memory location. It covers creating algebraic data types by combining enums and unions, interpreting raw memory, and understanding endianness through memory layout examples.
 
+### [Chapter 6.1: The Stack](./6_1_stack)
+This chapter delves into the Call Stack. It explores how local variables and function call frames are managed in memory. Key concepts include understanding why the stack grows downwards, the strict memory limits imposed by the OS (`ulimit -s`) causing Segmentation Faults (Stack Overflow), and the danger of Dangling Pointers when returning addresses of local stack variables.
+
 ## How to Navigate
 
 Feel free to explore the directories above. Each folder contains its own `README.md` with more detailed explanations of the key concepts covered, along with the source code (`.c` and `.h` files) demonstrating those concepts in action.
