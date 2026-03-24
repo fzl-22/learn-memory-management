@@ -103,8 +103,8 @@ void printStackPointerDiff(void) {
   }
   printf("---------------------------------\n");
   printf("Stack pointer offset: %ld bytes\n", diff);
-  printf("Current Stack Pointer   : %d\n", current_sp);
-  printf("Last Stack Pointer      : %d\n", last_sp);
+  printf("Current Stack Pointer   : %p\n", current_sp);
+  printf("Last Stack Pointer      : %p\n", last_sp);
   printf("---------------------------------\n");
 }
 
