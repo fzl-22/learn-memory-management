@@ -29,6 +29,9 @@ This chapter delves into the Call Stack. It explores how local variables and fun
 ### [Chapter 6.2: The Heap](./6_2_heap)
 This chapter explores dynamic memory allocation using the Heap. It covers using `malloc` to request memory that survives function returns, the absolute necessity of `free()` to prevent Memory Leaks, the critical dangers of "Use-After-Free" vulnerabilities, and a brief look at Big Endian vs. Little Endian byte ordering.
 
+### [Chapter 7: Advanced Pointers](./7_advanced_pointer)
+This chapter explores advanced pointer concepts that are essential for building complex data structures and generic functions in C. It covers double pointers (pointers to pointers), arrays of pointers, and the powerful `void *` (void pointer) used to bypass strict typing. It concludes with an implementation of a generic `swap` function capable of swapping any data type in memory using `memcpy`.
+
 ## How to Navigate
 
 Feel free to explore the directories above. Each folder contains its own `README.md` with more detailed explanations of the key concepts covered, along with the source code (`.c` and `.h` files) demonstrating those concepts in action.
