@@ -26,6 +26,9 @@ This chapter explores Unions (`union`) and how they provide a way to store diffe
 ### [Chapter 6.1: The Stack](./6_1_stack)
 This chapter delves into the Call Stack. It explores how local variables and function call frames are managed in memory. Key concepts include understanding why the stack grows downwards, the strict memory limits imposed by the OS (`ulimit -s`) causing Segmentation Faults (Stack Overflow), and the danger of Dangling Pointers when returning addresses of local stack variables.
 
+### [Chapter 6.2: The Heap](./6_2_heap)
+This chapter explores dynamic memory allocation using the Heap. It covers using `malloc` to request memory that survives function returns, the absolute necessity of `free()` to prevent Memory Leaks, the critical dangers of "Use-After-Free" vulnerabilities, and a brief look at Big Endian vs. Little Endian byte ordering.
+
 ## How to Navigate
 
 Feel free to explore the directories above. Each folder contains its own `README.md` with more detailed explanations of the key concepts covered, along with the source code (`.c` and `.h` files) demonstrating those concepts in action.
