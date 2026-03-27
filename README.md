@@ -32,6 +32,9 @@ This chapter explores dynamic memory allocation using the Heap. It covers using 
 ### [Chapter 7: Advanced Pointers](./7_advanced_pointer)
 This chapter explores advanced pointer concepts that are essential for building complex data structures and generic functions in C. It covers double pointers (pointers to pointers), arrays of pointers, and the powerful `void *` (void pointer) used to bypass strict typing. It concludes with an implementation of a generic `swap` function capable of swapping any data type in memory using `memcpy`.
 
+### [Chapter 8: Stack Data Structure](./8_stack_data_structure)
+This chapter explores building a generic Stack data structure from scratch in C. It covers dynamic array resizing using `realloc`, managing generic data using `void **` (arrays of generic pointers), avoiding Heap corruption and Double Free bugs, understanding type punning to store integers inside pointers, and safely copying strings using `strcpy`.
+
 ## How to Navigate
 
 Feel free to explore the directories above. Each folder contains its own `README.md` with more detailed explanations of the key concepts covered, along with the source code (`.c` and `.h` files) demonstrating those concepts in action.
