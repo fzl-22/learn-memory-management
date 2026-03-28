@@ -2,7 +2,7 @@
 
 > **Note:** The `README.md` files throughout this repository were AI-generated to save time documenting my progress, but all the C code within the project was written entirely by me.
 
-Welcome to my journey of learning the C programming language and mastering memory management! This repository serves as my personal playground, study guide, and archive of exercises as I delve deep into the low-level concepts of C.
+Welcome to my journey of learning the C programming language and mastering memory management! This repository serves as my personal playground, study guide, and archive of exercises as I delve deep into the low-level concepts of C, following the fantastic [Learn Memory Management in C](https://www.boot.dev/courses/learn-memory-management-c) course by Boot.dev.
 
 ## Contents
 
