@@ -35,6 +35,9 @@ This chapter explores advanced pointer concepts that are essential for building 
 ### [Chapter 8: Stack Data Structure](./8_stack_data_structure)
 This chapter explores building a generic Stack data structure from scratch in C. It covers dynamic array resizing using `realloc`, managing generic data using `void **` (arrays of generic pointers), avoiding Heap corruption and Double Free bugs, understanding type punning to store integers inside pointers, and safely copying strings using `strcpy`.
 
+### [Chapter 9: Objects and Polymorphism](./9_object)
+This chapter brings everything together by building a dynamically typed object system in C. It covers Tagged Unions to simulate polymorphic behavior (handling integers, floats, strings, vectors, and arrays), using double pointers (`**`) for generic arrays, implementing polymorphic functions like `snek_add`, and managing complex, nested Heap allocations to prevent memory leaks, shallow copy bugs, and Double Free Trace Traps.
+
 ## How to Navigate
 
 Feel free to explore the directories above. Each folder contains its own `README.md` with more detailed explanations of the key concepts covered, along with the source code (`.c` and `.h` files) demonstrating those concepts in action.
